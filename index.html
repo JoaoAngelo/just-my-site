@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Ângelo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+      }
+
+      .container {
+        max-width: 42rem;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 1rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .subtitle {
+        font-size: 1.25rem;
+        color: #d1d5db;
+        margin-bottom: 1rem;
+      }
+
+      .description {
+        font-size: 1.125rem;
+        color: #9ca3af;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+      }
+
+      .tech-lead {
+        color: #60a5fa;
+      }
+
+      .company {
+        color: #ef4444;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .company:hover {
+        color: #f87171;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .linkedin-button {
+        display: inline-block;
+        background-color: #0077b5;
+        color: white;
+        padding: 0.375rem 1rem;
+        border-radius: 9999px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+      }
+
+      .linkedin-button:hover {
+        background-color: #006699;
+      }
+
+      .space-y-6 > * + * {
+        margin-top: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container space-y-6">
+      <img
+        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/profile.jpg-j7rotg01q98amNur4AKk49ECmXEU5P.jpeg"
+        alt="Profile photo"
+        class="profile-image"
+      />
+
+      <h1>Hi, I'm João Ângelo</h1>
+
+      <p class="subtitle">Software Engineer & Full-Stack Developer</p>
+
+      <p class="description">
+        I specialize in system integration and managing Axway environments, developing secure, scalable APIs, and
+        optimizing performance, costs, and availability.<br />Currently working as a
+        <span class="tech-lead">Tech Lead</span> at
+        <a href="https://banco.bradesco" class="company" target="_blank" rel="noopener noreferrer">Bradesco</a>, I guide
+        the team in implementing security policies, data transformation, and authentication, ensuring secure API
+        solutions with strong governance.
+      </p>
+
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/joaoangelo92"
+          class="linkedin-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
